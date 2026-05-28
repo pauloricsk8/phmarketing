@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guia Prático - Soluções Saudáveis</title>
+  <meta name="description" content="Conteúdo informativo e transparente sobre métodos e produtos recomendados. Saiba mais antes de comprar." />
+  <style>
+    :root{--bg:#f7f8fb;--card:#ffffff;--accent:#0b63d6;--muted:#6b7280;--maxw:900px}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#111;margin:0;padding:24px;display:flex;justify-content:center}
+    .wrap{width:100%;max-width:var(--maxw)}
+    header{background:linear-gradient(90deg,#fff 0,#f1f6ff 100%);padding:28px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin:8px 0 0}
+    main{margin-top:18px}
+    .card{background:var(--card);padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.04);margin-bottom:16px}
+    ul{margin:8px 0 0;padding-left:20px;color:var(--muted)}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:600;margin-top:12px}
+    footer{margin-top:12px;color:var(--muted);font-size:13px}
+    .meta{font-size:13px;color:var(--muted);margin-top:8px}
+    .contact a{color:var(--accent);text-decoration:none}
+    @media (max-width:520px){h1{font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Guia Prático - Soluções Saudáveis</h1>
+      <p class="lead">Informações claras e objetivas para ajudar na sua decisão. Conteúdo informativo, sem promessas milagrosas.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>O que você encontrará aqui</h2>
+        <ul>
+          <li>Descrição honesta do produto e benefícios reais</li>
+          <li>Recursos e o que esperar do conteúdo</li>
+          <li>Links para compra e informações de suporte</li>
+        </ul>
+
+        <p class="meta">Ao clicar em "Saiba mais", você será direcionado ao parceiro comercial para concluir a compra.</p>
+
+        <a class="cta" href="https://slimbyscience.com/?ref=G81559386S" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+      </section>
+
+      <section class="card">
+        <h2>Sobre</h2>
+        <p class="meta">Este site apresenta recomendações e materiais informativos. Não substitui orientação profissional. Verifique sempre as informações do produto antes de comprar.</p>
+      </section>
+
+      <section class="card contact">
+        <h2>Contato</h2>
+        <p class="meta">Dúvidas ou suporte: <a href="mailto:pauloric_sk8@hotmail.com">pauloric_sk8@hotmail.com</a></p>
+        <p class="meta">WhatsApp: <a href="https://wa.me/11998492669" target="_blank" rel="noopener noreferrer">11998492669</a></p>
+      </section>
+    </main>
+
+     <footer>
+      <p><a href="politica-privacidade.html">Política de Privacidade</a> | <a href="contato.html">Contato</a></p>
+      <p style="margin-top:8px">© 2026 Paulo Marketing Digital</p>
+    </footer>
+  </div>
+</body>
+</html>
